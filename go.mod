@@ -1,4 +1,5 @@
-module github.com/jaksi/sshesame
+module github.com/bai0012/SSH_honeypot
+// forked and modified from github.com/jaksi/sshesame
 
 go 1.18
 

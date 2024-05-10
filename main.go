@@ -29,7 +29,7 @@ func init() {
 
 func main() {
 	configFile := flag.String("config", "", "optional config file")
-	dataDir := flag.String("data_dir", path.Join(xdg.DataHome, "sshesame"), "data directory to store automatically generated host keys in")
+	dataDir := flag.String("data_dir", path.Join(xdg.DataHome, "ssh_honeypot"), "data directory to store automatically generated host keys in")
 	flag.Parse()
 
 	cfg := &config{}
