@@ -6,6 +6,7 @@
 *.dylib
 oryxBuildBinary
 __debug_bin
+.github
 
 # Test binary, built with `go test -c`
 *.test
